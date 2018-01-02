@@ -1,0 +1,159 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		D7585A2A1FD78DED00698895 /* dec */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dec; sourceTree = "<group>"; };
+		D7585A2B1FD78DED00698895 /* demux */ = {isa = PBXFileReference; lastKnownFileType = folder; path = demux; sourceTree = "<group>"; };
+		D7585A2C1FD78DED00698895 /* dsp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dsp; sourceTree = "<group>"; };
+		D7585A2D1FD78DED00698895 /* enc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = enc; sourceTree = "<group>"; };
+		D7585A2E1FD78DED00698895 /* libwebp.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = libwebp.pc.in; sourceTree = "<group>"; };
+		D7585A2F1FD78DED00698895 /* libwebp.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libwebp.rc; sourceTree = "<group>"; };
+		D7585A301FD78DED00698895 /* libwebpdecoder.pc.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = libwebpdecoder.pc.in; sourceTree = "<group>"; };
+		D7585A311FD78DED00698895 /* libwebpdecoder.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libwebpdecoder.rc; sourceTree = "<group>"; };
+		D7585A321FD78DED00698895 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		D7585A331FD78DED00698895 /* mux */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mux; sourceTree = "<group>"; };
+		D7585A341FD78DED00698895 /* utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = utils; sourceTree = "<group>"; };
+		D7585A351FD78DED00698895 /* webp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = webp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D7585A241FD78DED00698895 = {
+			isa = PBXGroup;
+			children = (
+				D7585A2A1FD78DED00698895 /* dec */,
+				D7585A2B1FD78DED00698895 /* demux */,
+				D7585A2C1FD78DED00698895 /* dsp */,
+				D7585A2D1FD78DED00698895 /* enc */,
+				D7585A2E1FD78DED00698895 /* libwebp.pc.in */,
+				D7585A2F1FD78DED00698895 /* libwebp.rc */,
+				D7585A301FD78DED00698895 /* libwebpdecoder.pc.in */,
+				D7585A311FD78DED00698895 /* libwebpdecoder.rc */,
+				D7585A321FD78DED00698895 /* Makefile.am */,
+				D7585A331FD78DED00698895 /* mux */,
+				D7585A341FD78DED00698895 /* utils */,
+				D7585A351FD78DED00698895 /* webp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D7585A291FD78DED00698895 /* src */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = D7585A361FD78DED00698895 /* Build configuration list for PBXLegacyTarget "src" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/vcyber/Downloads/SDWebImage-master/Vendors/libwebp/src";
+			dependencies = (
+			);
+			name = src;
+			passBuildSettingsInEnvironment = 1;
+			productName = src;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		D7585A251FD78DED00698895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = D7585A281FD78DED00698895 /* Build configuration list for PBXProject "src" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D7585A241FD78DED00698895;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7585A291FD78DED00698895 /* src */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		D7585A261FD78DED00698895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		D7585A271FD78DED00698895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		D7585A371FD78DED00698895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = src;
+			};
+			name = Debug;
+		};
+		D7585A381FD78DED00698895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = src;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7585A281FD78DED00698895 /* Build configuration list for PBXProject "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7585A261FD78DED00698895 /* Debug */,
+				D7585A271FD78DED00698895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7585A361FD78DED00698895 /* Build configuration list for PBXLegacyTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7585A371FD78DED00698895 /* Debug */,
+				D7585A381FD78DED00698895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7585A251FD78DED00698895 /* Project object */;
+}
