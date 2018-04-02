@@ -337,8 +337,8 @@
 				TargetAttributes = {
 					4D4EC70F1EFA6A7700DDFF36 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 9M5YW84CE4;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = M974WD5VWM;
+						ProvisioningStyle = Manual;
 					};
 					4D4EC7281EFA6A7700DDFF36 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -578,11 +578,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9M5YW84CE4;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = M974WD5VWM;
 				INFOPLIST_FILE = WMPageControllerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yq.WMPageControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f8a0955d-bb6e-423d-8855-3b5a13f35ed4";
+				PROVISIONING_PROFILE_SPECIFIER = CYW_ALL_APP_Development;
 			};
 			name = Debug;
 		};
@@ -590,11 +593,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9M5YW84CE4;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WMPageControllerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yq.WMPageControllerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

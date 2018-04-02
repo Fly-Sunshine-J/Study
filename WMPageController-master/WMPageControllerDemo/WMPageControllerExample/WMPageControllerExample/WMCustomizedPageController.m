@@ -31,6 +31,7 @@
     if (self.menuViewStyle == WMMenuViewStyleTriangle) {
         [self.view addSubview:self.redView];
     }
+    self.pageAnimatable = YES;
 }
 
 - (void)didReceiveMemoryWarning {

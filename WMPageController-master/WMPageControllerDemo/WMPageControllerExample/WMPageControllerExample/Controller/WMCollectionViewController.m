@@ -48,6 +48,16 @@ static NSString * const reuseIdentifier = @"WMCollectionCell";
     NSLog(@"------------------------------%@ viewDidAppear",[self class]);
 }
 
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    NSLog(@"------------------------------%@ viewDidAppear",[self class]);
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    NSLog(@"------------------------------%@ viewDidAppear",[self class]);
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

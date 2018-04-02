@@ -805,7 +805,7 @@ static NSString * const AFNSURLSessionTaskDidSuspendNotification = @"com.alamofi
     [[NSNotificationCenter defaultCenter] removeObserver:self name:AFNSURLSessionTaskDidResumeNotification object:task];
 }
 
-#pragma mark -初始化NSURLSessionDataTask
+#pragma mark -初始化NSURLSessionDataTaskresponseSerializer
 
 - (NSURLSessionDataTask *)dataTaskWithRequest:(NSURLRequest *)request
                             completionHandler:(void (^)(NSURLResponse *response, id responseObject, NSError *error))completionHandler
